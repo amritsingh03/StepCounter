@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".SignUp"
+        android:orientation="vertical">
+
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="20dp" />
+
+
+
+            <HorizontalScrollView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <TableRow>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Daily Steps(default 10,000)"
+                    android:textSize="20sp"/>
+
+                <EditText
+                    android:id="@+id/etdsteps"
+                    android:inputType="numberDecimal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/textbox"
+                    android:hint="Enter daily number of steps"
+                    android:textSize="20sp" />
+            </TableRow>
+
+                <TableRow>
+                <TextView
+                android:id="@+id/etpfl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Click here to edit profile details"
+                android:textSize="60sp"/>
+                <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+               </TableRow>
+                </TableLayout>
+            </HorizontalScrollView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/btok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:text="OK" />
+
+    </LinearLayout>
+</ScrollView>

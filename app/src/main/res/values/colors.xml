@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#679469</color>
+    <color name="colorPrimaryDark">#516952</color>
+    <color name="colorAccent">#385e3a</color>
+
+    <color name="col_idle">#ae2828</color>
+    <color name="col_active">#359735</color>
+
+    <color name="background_def">#bedac4</color>
+    <color name="background_home">#576b5b</color>
+
+
+</resources>
